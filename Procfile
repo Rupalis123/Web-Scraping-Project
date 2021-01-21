@@ -1,1 +1,1 @@
-web: gunicorn etl-project:app:app
+web: gunicorn etl-project:app
