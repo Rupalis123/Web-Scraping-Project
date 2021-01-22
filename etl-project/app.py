@@ -8,7 +8,7 @@ from sqlalchemy import create_engine, func
 import datetime as dt
 
 from flask import Flask, jsonify
-from config import URI
+from .config import URI
 
 # Create engine
 engine = create_engine(URI)
